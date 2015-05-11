@@ -20,6 +20,7 @@ If your webiste includes an Angular.js application already complete the followin
     * `frInstagramGratitudeFeedProvider` provider to configure the Instagram Client ID and Instagram Post Limit (using `frInstagramGratitudeFeedProvider.instagramClientId` and `frInstagramGratitudeFeedProvider.instagramPostLimit` attributes respectively)
     * `frGratitudeWidgetUrlPrefixesProvider` provider to config the Template and Image URL Prefixes (using the `frGratitudeWidgetUrlPrefixesProvider.setTemplateUrlPrefix` and `frGratitudeWidgetUrlPrefixesProvider.setImageUrlPrefix` methods)
 * Use `<fr-gratitude-widget></fr-gratitude-widget>` in your html to add the Gratitude button.
+* Make sure that you have added Bootstrap, jQuery, and Angular UI Bootstrap if your application does not already use them.
 
 ## Angular.js App Usage
 If your website does not include an Angular.js application, you can still use the FreshRealm Instagram Gratitude Widget. To do so you will need to include some additional javascript libraries in your application's html source as well as a small snippet of javascript code. For a full example of how to do this see the `/demo/index.html` file. Below is a summary of the required steps
