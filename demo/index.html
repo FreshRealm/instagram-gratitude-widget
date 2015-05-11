@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo Instagram Gratitude Widget App</title>
+    <!-- If you do not already have Bootstrap included in your application you will need to include it. Feel free to use the CDN //netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css -->
+    <link rel="stylesheet" type="text/css" href="/lib/bootstrap/css/bootstrap.min.css">
+    <!-- Include the FreshRealm Instagram Gratitude Widget css file after Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="/dist/css/fr-gratitude-widget.css">
+</head>
+<body>
+    <!-- Bind the FreshRealm Instagram Gratitude Widget App -->
+    <div ng-app="frGWApp">
+        <!-- Insert the gratitude widget -->
+        <fr-gratitude-widget></fr-gratitude-widget>
+    </div>
+
+    <!-- Before any javascript libraries are included set the FreshRealm Instagram Gratitude Widget configuration options -->
+    <script type="text/javascript">
+        // Instagram Client ID, be sure to use your real Instagram Client ID
+        window.frInstagramClientId = 'YOUR INSTAGRAM API CLIENT ID GOES HERE';
+        // Paths to gratitude widget templates and images
+        window.frGWTemplateUrlPrefix = '/templates';
+        window.frGWImageUrlPrefix = '/images';
+    </script>
+    <!-- If you do not already have jQuery included in your application you will need to include it. Feel free to use the CDN //ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js -->
+    <script type="text/javascript" src="/lib/jquery/js/jquery.min.js"></script>
+    <!-- If you do not already have Angular.js included in your applicaiton you will need to include it after jQuery. Feel free to use the CDN //ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js -->
+    <script type="text/javascript" src="/lib/angular/js/angular.min.js"></script>
+    <!-- If you do not already have the Angular UI Bootstrap module included in your application you will need to include it after Angular.js. -->
+    <script type="text/javascript" src="/lib/angular-bootstrap/js/ui-bootstrap-tpls.min.js"></script>
+    <!-- Include the FreshRealm Instagram Gratitude Widget App javascript file last -->
+    <script type="text/javascript" src="/dist/js/app/fr-instagram-gratitude-widget-app.min.js"></script>
+</body>
+</html>

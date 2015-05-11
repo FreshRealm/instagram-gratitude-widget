@@ -1,0 +1,188 @@
+@dark-green:    #00AB84;
+@green:         #6CC24A;
+@light-green:   #E9F4E0;
+@font-family:   "ff-meta-web-pro", Helvetica, Arial, sans-serif;
+@border-radius: 3px;
+@screen-xs-max: 767px;
+
+.gratitude-widget {
+    a {
+        color: @green;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        &:hover {
+            color: @dark-green;
+        }
+    }
+
+    font-family: @font-family;
+    text-align: left;
+
+    &.modal {
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+
+    .modal-dialog {
+        width: 316px;
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 80px;
+        .modal-content {
+            border-radius: @border-radius;
+            border: none;
+            .modal-header {
+                padding: 0px;
+                border: none;
+                min-height: 0;
+            }
+            .modal-body {
+                padding: 0px;
+                .post-caption {
+                    margin: 18px 18px 30px;
+                }
+            }
+            .modal-footer {
+                text-align: left;
+                padding: 0px;
+                border: none;
+                margin: 0px;
+            }
+            .light-green-block {
+                background-color: @light-green;
+                color: @dark-green;
+                padding: 30px 18px;
+            }
+            p {
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+
+#gw-btn {
+    background-color: @dark-green;
+    border: none;
+    color: white;
+    font-family: @font-family;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 18px;
+    line-height: 21px;
+    .white-heart {
+        width: 18px;
+        margin-right: 12px;
+    }
+    > span {
+        letter-spacing: 0.5px;
+        font-size: 18px;
+        line-height: 21px;
+        height: auto;
+        width: auto;
+    }
+    &:hover {
+        background-color: @green;
+    }
+}
+
+.heading() {
+    color: @dark-green;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#gw-logo-container {
+    position: relative;
+    top: -50px;
+    width: 100px;
+    height: 100px;
+    margin: 0px auto -50px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+#gw-freshrealm-logo {
+    margin: 0px auto;
+}
+
+#gw-title {
+    .heading;
+    font-weight: bold;
+    padding: 0px 0px 22px;
+    margin: 0px auto;
+    > span {
+        letter-spacing: 0.5px;
+        font-size: 18px;
+        line-height: 24px;
+        height: auto;
+        width: auto;
+    }
+}
+
+#gw-title-fixed-to-top-container {
+    z-index: 1100;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 316px;
+    margin: 0px auto;
+    font-family: @font-family;
+    background-color: white;
+    cursor: default;
+}
+
+#gw-title-fixed-to-top {
+    #gw-title;
+    padding-top: 15px;
+}
+
+#gw-foot {
+    .heading;
+    padding: 25px;
+    text-align: center;
+    border-bottom-right-radius: @border-radius;
+    border-bottom-left-radius: @border-radius;
+}
+
+#gw-instagram-logo {
+    width: 18px;
+    margin-right: 6px;
+}
+
+#gw-gratitude-container {
+    padding: 0px;
+}
+
+#gw-gratitude-block {
+    width: 300px;
+    margin: 0px auto;
+}
+
+#gw-gratitude-heart {
+    width: 37px;
+    margin: 35px 29px 35px 34px;
+}
+
+#gw-gratitude-blurb {
+    margin: 29px 0px 25px;
+}
+
+@media (max-width: @screen-xs-max) {
+    .gratitude-widget {
+        .modal-dialog {
+            width: auto;
+            max-width: 316px;
+            margin: 80px auto 10px;
+        }
+    }
+
+    #gw-title-fixed-to-top-container {
+        width: auto;
+        max-width: 316px;
+        margin: 0px auto;
+        left: 0px;
+        right: 0px;
+    }
+}

@@ -1,0 +1,40 @@
+<div id="gw-header" class="modal-header">
+    <div id="gw-logo-container"><img id="gw-freshrealm-logo" class="img-responsive" ng-src="{{ imageUrlPrefix }}/fr-logo.svg"></div>
+    
+    <div id="gw-title"><img id="gw-instagram-logo" ng-src="{{ imageUrlPrefix }}/insta-logo.svg"><span>#connectedbygratitude</span></div>
+
+    <div class="light-green-block">Want your gratitude delivered to the world?<br>Tag photos of things you are grateful for with #connectedbygratitude on Instagram.</div>
+
+    <img id="gw-header-striplet" class="striplet img-responsive" ng-src="{{ imageUrlPrefix }}/striplet-1.jpg">
+</div>
+
+<div class="modal-body">
+    <ul class="list-unstyled">
+        <li ng-repeat="post in posts">
+            <img class="img-responsive" ng-src="{{post.images.standard_resolution.url}}">
+            
+            <div class="post-caption text-left">
+                <p><a target="_blank" ng-href="http://instagram.com/{{ post.user.username }}/">{{ post.user.username }}</a></p>
+                <p>{{ post.caption.text }}</p>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div class="modal-footer">
+    <img class="striplet img-responsive" ng-src="{{ imageUrlPrefix }}/striplet-2.jpg">
+
+    <div id="gw-gratitude-container" class="light-green-block">
+        <div id="gw-gratitude-block" class="clearfix">
+            <img id="gw-gratitude-heart" class="pull-left" ng-src="{{ imageUrlPrefix }}/green-heart.svg">
+            
+            <div id="gw-gratitude-blurb" class="pull-left">
+                Gratitude helps us feel<br>connected to ourselves<br>and to one another.
+            </div>
+        </div>
+    </div>
+
+    <img class="striplet img-responsive" ng-src="{{ imageUrlPrefix }}/striplet-3.jpg">
+
+    <div id="gw-foot" class="light-green-block">View more: <a target="_blank" href="http://instagram.com/freshrealm/">@freshrealm</a></div>
+</div>

@@ -1,0 +1,53 @@
+{
+  "name": "fr-instagram-gratitude-widget",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/freshrealm/instagram-gratitude-widget.git"
+  },
+  "authors": [
+    "John Grogg <johng@freshrealm.co>"
+  ],
+  "description": "Angular module for displaying the #connectedbygratitude feed",
+  "keywords": [
+    "angularjs",
+    "connectedbygratitude",
+    "freshrealm"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.2.X",
+    "angular-bootstrap": "0.12.X",
+    "bootstrap": "3.1.X",
+    "jquery": "1.11.X"
+  },
+  "exportsOverride": {
+    "jquery": {
+      "js": [
+        "**/dist/jquery.js",
+        "**/dist/jquery.min.js",
+        "**/dist/jquery.min.map"
+      ]
+    },
+    "*": {
+      "js": [
+        "**/*.js",
+        "**/*.js.map"
+      ],
+      "css": [
+        "**/*.css",
+        "**/*.css.map"
+      ],
+      "fonts": [
+        "fonts/*"
+      ]
+    }
+  }
+}

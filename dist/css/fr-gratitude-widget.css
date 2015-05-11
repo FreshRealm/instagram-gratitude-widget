@@ -1,0 +1,173 @@
+.gratitude-widget {
+  font-family: "ff-meta-web-pro", Helvetica, Arial, sans-serif;
+  text-align: left;
+}
+.gratitude-widget a {
+  color: #6cc24a;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+.gratitude-widget a:hover {
+  color: #00ab84;
+}
+.gratitude-widget.modal {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.gratitude-widget .modal-dialog {
+  width: 316px;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 80px;
+}
+.gratitude-widget .modal-dialog .modal-content {
+  border-radius: 3px;
+  border: none;
+}
+.gratitude-widget .modal-dialog .modal-content .modal-header {
+  padding: 0px;
+  border: none;
+  min-height: 0;
+}
+.gratitude-widget .modal-dialog .modal-content .modal-body {
+  padding: 0px;
+}
+.gratitude-widget .modal-dialog .modal-content .modal-body .post-caption {
+  margin: 18px 18px 30px;
+}
+.gratitude-widget .modal-dialog .modal-content .modal-footer {
+  text-align: left;
+  padding: 0px;
+  border: none;
+  margin: 0px;
+}
+.gratitude-widget .modal-dialog .modal-content .light-green-block {
+  background-color: #e9f4e0;
+  color: #00ab84;
+  padding: 30px 18px;
+}
+.gratitude-widget .modal-dialog .modal-content p {
+  margin-bottom: 0px;
+}
+#gw-btn {
+  background-color: #00ab84;
+  border: none;
+  color: white;
+  font-family: "ff-meta-web-pro", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 18px;
+  line-height: 21px;
+}
+#gw-btn .white-heart {
+  width: 18px;
+  margin-right: 12px;
+}
+#gw-btn > span {
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  line-height: 21px;
+  height: auto;
+  width: auto;
+}
+#gw-btn:hover {
+  background-color: #6cc24a;
+}
+#gw-logo-container {
+  position: relative;
+  top: -50px;
+  width: 100px;
+  height: 100px;
+  margin: 0px auto -50px;
+  padding: 15px;
+  border-radius: 50px;
+  background-color: white;
+}
+#gw-freshrealm-logo {
+  margin: 0px auto;
+}
+#gw-title {
+  color: #00ab84;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: bold;
+  padding: 0px 0px 22px;
+  margin: 0px auto;
+}
+#gw-title > span {
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  line-height: 24px;
+  height: auto;
+  width: auto;
+}
+#gw-title-fixed-to-top-container {
+  z-index: 1100;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 316px;
+  margin: 0px auto;
+  font-family: "ff-meta-web-pro", Helvetica, Arial, sans-serif;
+  background-color: white;
+  cursor: default;
+}
+#gw-title-fixed-to-top {
+  color: #00ab84;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: bold;
+  padding: 0px 0px 22px;
+  margin: 0px auto;
+  padding-top: 15px;
+}
+#gw-title-fixed-to-top > span {
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  line-height: 24px;
+  height: auto;
+  width: auto;
+}
+#gw-foot {
+  color: #00ab84;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 25px;
+  text-align: center;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+#gw-instagram-logo {
+  width: 18px;
+  margin-right: 6px;
+}
+#gw-gratitude-container {
+  padding: 0px;
+}
+#gw-gratitude-block {
+  width: 300px;
+  margin: 0px auto;
+}
+#gw-gratitude-heart {
+  width: 37px;
+  margin: 35px 29px 35px 34px;
+}
+#gw-gratitude-blurb {
+  margin: 29px 0px 25px;
+}
+@media (max-width: 767px) {
+  .gratitude-widget .modal-dialog {
+    width: auto;
+    max-width: 316px;
+    margin: 80px auto 10px;
+  }
+  #gw-title-fixed-to-top-container {
+    width: auto;
+    max-width: 316px;
+    margin: 0px auto;
+    left: 0px;
+    right: 0px;
+  }
+}
