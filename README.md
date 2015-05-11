@@ -3,6 +3,8 @@ FreshRealm Instagram Gratitude Widget
 
 The FreshRealm Instagram Gratitude Widget is an [Angular.js](https://angularjs.org) module that allows for easy inclusion of the #connectedbygratitude Instagram tag feed on your website. This project includes a sample demo application that includes the FreshRealm Instagram Gratitude Widget module.
 
+## Installation
+Install with [Bower](http://bower.io/ ): `bower install fr-instagram-gratitude-widget` then follow the instructions below.
 
 ## Angular.js Module Usage
 If your webiste includes an Angular.js application already complete the following steps:
