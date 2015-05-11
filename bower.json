@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/freshrealm/instagram-gratitude-widget.git"
+    "url": "git://github.com/FreshRealm/instagram-gratitude-widget.git"
   },
   "authors": [
     "John Grogg <johng@freshrealm.co>"
@@ -12,7 +12,7 @@
   "keywords": [
     "angularjs",
     "connectedbygratitude",
-    "freshrealm"
+    "FreshRealm"
   ],
   "license": "MIT",
   "ignore": [
